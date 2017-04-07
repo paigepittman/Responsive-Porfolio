@@ -308,8 +308,17 @@ textarea {
 	}
 
 	#links {
+
 		position: absolute;
-		left: 400px;
+		left: 70px;
+		top: 190px;
+		background-color: white;
+		border-style: solid;
+		border-color: #ddd;
+		border-width: 2px;
+		height: 100px;
+		width: 350px;
+
 	}
 	.footer {
 		max-width: 640px;
@@ -317,7 +326,7 @@ textarea {
 	}
 	.bio {
 		max-width: 350px;
-		height: 300px;
+		height: 700px;
 
 
 	}
