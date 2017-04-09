@@ -216,7 +216,7 @@ hr {
 }
 
 input {
-	fon: arial;
+	font: arial;
 	font-size: 18px;
 	color: #dddddd;
 	width: 100%;
@@ -248,7 +248,7 @@ textarea {
 
 .footer {
 	position: absolute;
-	bottom: -600px;
+	bottom: -800px;
 	left: 0;
 	clear: both;
 	width: 100%;
@@ -277,23 +277,50 @@ textarea {
 	#links {
 		position: absolute;
 		left: 400px;
+
 	}
 	.footer {
-		max-width: 768px;
+		width: 100%;
+		z-index: 1;
 
 	}
 	.bio {
-		max-width: 550px;
+		max-width: 600px;
 
 	}
 	.contact {
-		position: relative;
-		left: 52px;
-		top: 800px;
+		position: absolute;
+		left: 58px;
+		top: 1000px;
 		float: left;
-		width: 570px;
+		width: 620px;
 		margin-top: 125px;
+		padding-left: 0px,
+
 	}
+	h2 {
+		text-align: left;
+	}
+
+	.email {
+		height: 600px;
+		width: 600px;
+	}
+
+.icons {
+	float: left;
+}
+
+textarea {
+	height: 200px;
+
+}
+
+.portfolio {
+	height: 800px;
+
+}
+
 
 
 }
@@ -301,50 +328,107 @@ textarea {
 @media screen and (max-width: 640px) {
 	body {
 		max-width: 640px;
+
+
 		
 	}
 	.navigation {
 		max-width: 640px;
+		background-color: #4aaaa5;
+		margin-top: -50px; 
+	}
+
+
+	#name {
+		width: 100%;
+		margin-top: 0;
+		text-align: center;
+		text-align: center;
 	}
 
 	#links {
 
 		position: absolute;
-		left: 70px;
-		top: 190px;
+		left: 0;
+		top: 150px;
 		background-color: white;
 		border-style: solid;
 		border-color: #ddd;
 		border-width: 2px;
-		height: 100px;
-		width: 350px;
+		height: 40px;
+		width: 100%;
+		padding: 30px;
+		text-align: center;
+		word-spacing: 60px;
+		border-width: 0 0 2px 0;
 
 	}
 	.footer {
-		max-width: 640px;
+		width: 100%;
+		z-index: 1;
+		position: absolute;
+		bottom: -800px;
 
 	}
+
 	.bio {
-		max-width: 350px;
-		height: 700px;
+		
+		width: 580px;
+		height: 600px;
+		position: absolute;
+		left: 10px;
+
+
+
 
 
 	}
+	
 
 	#bio-image {
 		width: 175px;
 		height: 250px;
-		clear: right;
+		position: absolute;
+		left: 150px;
 
 	}
 	.contact {
-		position: relative;
-		left: 52px;
-		top: 800px;
+		position: absolute;
+		left: 50px;
+		top: 900px;
 		float: left;
-		width: 350px;
+		width: 600px;
+		height: 200px;
 		margin-top: 125px;
+	
 	}
+
+	h2 {
+		text-align: left;
+	}
+
+	.icons {
+	float: left;
+}
+p {
+	position: absolute;
+	top: 250px;
+
+}
+
+.email {
+	position: absolute;
+	left: 10px;
+	width: 580px;
+	height: 700px;
+}
+
+textarea {
+	height: 200px;
+}
+
+
+
 
 
 }
